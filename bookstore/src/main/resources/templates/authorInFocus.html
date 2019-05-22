@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1000/xhtml">
+<head th:replace="common/header :: common-header" />
+
+<body>
+	<div th:replace="common/header :: navbar" />
+	
+	<div class="container">
+		<div class="row" style="margin-top: 60px;">
+			<h1 style="background-color: lightblue;" align="center">J.K.
+				Rowling</h1>
+			<div class="col-xs-3">
+				<a th:href="@{/}">Back to home</a><br /> <img src="/image/jk.png"
+					class="img-responsive" />
+			</div>
+
+
+			<div class="col-xs-9">
+				<h4><br /><br />
+					Jo wanted to be a writer from an early age. She wrote her first
+					book at the age of six - a story about a rabbit, called 'Rabbit'.
+					At just eleven, she wrote her first novel - about seven cursed
+					diamonds and the people who owned them.<br /><br />Jo conceived the idea
+					of Harry Potter in 1990 while sitting on a delayed train from
+					Manchester to London King's Cross. Over the next five years, she
+					began to map out all seven books of the series. She wrote mostly in
+					longhand and gradually built up a mass of notes, many of which were
+					scribbled on odd scraps of paper.<br /><br />Having completed the full
+					manuscript, she sent the first three chapters to a number of
+					literary agents, one of whom wrote back asking to see the rest of
+					it. She says it was "the best letter I had ever received in my
+					life." <br />
+					<br />The book was first published by Bloomsbury Children's Books
+					in June 1997, under the name J.K. Rowling.
+				</h4>
+
+			</div>
+		</div>
+	</div>
+	<div th:replace="common/header :: footer" />
+
+	<div th:replace="common/header :: body-bottom-scripts" />
+</body>
+</html>
